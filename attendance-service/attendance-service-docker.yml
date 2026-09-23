@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://attendance-db:3306/pisio_attendance?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+
+qr:
+  width: 400
+  height: 400
+  token-validity-seconds: 30
+  refresh-interval-seconds: 30
