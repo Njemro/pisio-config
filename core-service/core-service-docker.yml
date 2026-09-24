@@ -17,3 +17,6 @@ keycloak:
 eureka:
   instance:
     instance-id: ${spring.application.name}:${server.port}
+    
+auth:
+  domain: ${AUTH_DOMAIN}
