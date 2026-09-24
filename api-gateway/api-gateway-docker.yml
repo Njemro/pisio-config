@@ -6,7 +6,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080/realms/pisio
+          issuer-uri: http://192.168.100.8:8080/realms/pisio
           jwk-set-uri: http://keycloak:8080/realms/pisio/protocol/openid-connect/certs
 
   cloud:
